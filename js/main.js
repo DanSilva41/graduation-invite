@@ -12,7 +12,8 @@
 
     			$('body').removeClass('offcanvas');
     			$('.js-fh5co-nav-toggle').removeClass('active');
-	    	}
+			}
+			console.log("Off");
 	    }
 		});
 
@@ -76,7 +77,6 @@
 			}
 			$this.toggleClass('active');
 			event.preventDefault();
-
 		});
 	};
 
@@ -213,6 +213,16 @@
 		$(window).stellar();
 	};
 
+	var customMenu = function() {
+		$('.abaMenu').on('click', function(event){
+			if ( $('body').hasClass('overflow offcanvas') ) {
+				$('body').removeClass('overflow offcanvas');
+			} else {
+				$('body').addClass('overflow offcanvas');
+			}	
+		});
+	};
+
 	
 	$(function(){
 		mobileMenuOutsideClick();
@@ -226,6 +236,7 @@
 		loaderPage();
 		counter();
 		counterWayPoint();
+		customMenu();
 	});
 
 
