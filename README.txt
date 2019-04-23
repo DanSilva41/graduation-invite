@@ -3,11 +3,10 @@ TITLE:
 Wedding - 100% Fully Responsive Free HTML5 Bootstrap Template
 
 AUTHOR:
-DESIGNED & DEVELOPED by GetTemplates.co
+DESIGNED & DEVELOPED by Danilo SIlva
 
-Website: http://gettemplates.co/
-Twitter: http://twitter.com/gettemplatesco
-Facebook: http://facebook.com/gettemplatesco
+Website: http://dansilva41.github.io
+Linkedin: https://www.linkedin.com/in/dansilva41/
 
 
 CREDITS:
